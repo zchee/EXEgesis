@@ -1,0 +1,13 @@
+diff --git a/WORKSPACE b/WORKSPACE
+index c82e1be..2540409 100644
+--- a/WORKSPACE
++++ b/WORKSPACE
+@@ -195,7 +195,7 @@ http_archive(
+ 
+ http_file(
+     name = "intel_sdm_pdf",
+-    sha256 = "caad5b299d050747ee1492ae991b568bec1c28001216cf3ad5049cb5939ed8b7",
++    sha256 = "ff074d550b2fe444173981f2f0b808725dcd457e897aff35d82cc2653fd9f5c4",
+     urls = ["https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf"],
+ )
+ 

@@ -194,8 +194,8 @@ http_archive(
 
 http_file(
     name = "intel_sdm_pdf",
-    sha256 = "2b16c29d13aca1b98ea61f72ca0123649334564f90472db10067957b229e0dae",
-    urls = ["https://software.intel.com/content/dam/develop/public/us/en/documents/325462-sdm-vol-1-2abcd-3abcd.pdf"],
+    sha256 = "662feb7d46310ea723f431c35d6b495fda3960cfacd4eb3136d1a30cb8a9ed37",
+    urls = ["https://software.intel.com/content/dam/develop/external/us/en/documents-tps/325462-sdm-vol-1-2abcd-3abcd.pdf"],
 )
 
 # ==============================================================================

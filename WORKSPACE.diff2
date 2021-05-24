@@ -1,0 +1,35 @@
+diff --git a/WORKSPACE b/WORKSPACE
+index 6269dab..f8c90ba 100644
+--- a/WORKSPACE
++++ b/WORKSPACE
+@@ -39,8 +39,7 @@ http_archive(
+     sha256 = "2ddbc2f0c30e8f9ee7cc8281707859827c143a1dc088f74d38aca66fe6b664a2",
+     strip_prefix = "protobuf-93a18cf2be6d590d23f34757a32133306e290ca9",
+     urls = [
+-        "https://mirror.bazel.build/github.com/google/protobuf/archive/93a18cf2be6d590d23f34757a32133306e290ca9.tar.gz",
+-        "https://github.com/google/protobuf/archive/93a18cf2be6d590d23f34757a32133306e290ca9.tar.gz",
++        "https://github.com/protocolbuffers/protobuf/archive/93a18cf2be6d590d23f34757a32133306e290ca9.tar.gz",
+     ],
+ )
+ 
+@@ -52,8 +51,7 @@ http_archive(
+     sha256 = "2ddbc2f0c30e8f9ee7cc8281707859827c143a1dc088f74d38aca66fe6b664a2",
+     strip_prefix = "protobuf-93a18cf2be6d590d23f34757a32133306e290ca9",
+     urls = [
+-        "https://mirror.bazel.build/github.com/google/protobuf/archive/93a18cf2be6d590d23f34757a32133306e290ca9.tar.gz",
+-        "https://github.com/google/protobuf/archive/93a18cf2be6d590d23f34757a32133306e290ca9.tar.gz",
++        "https://github.com/protocolbuffers/protobuf/archive/93a18cf2be6d590d23f34757a32133306e290ca9.tar.gz",
+     ],
+ )
+ 
+@@ -194,8 +192,8 @@ http_archive(
+ 
+ http_file(
+     name = "intel_sdm_pdf",
+-    sha256 = "2b16c29d13aca1b98ea61f72ca0123649334564f90472db10067957b229e0dae",
+-    urls = ["https://software.intel.com/content/dam/develop/public/us/en/documents/325462-sdm-vol-1-2abcd-3abcd.pdf"],
++    sha256 = "662feb7d46310ea723f431c35d6b495fda3960cfacd4eb3136d1a30cb8a9ed37",
++    urls = ["https://software.intel.com/content/dam/develop/external/us/en/documents-tps/325462-sdm-vol-1-2abcd-3abcd.pdf"],
+ )
+ 
+ # ==============================================================================
