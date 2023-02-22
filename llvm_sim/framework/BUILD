@@ -1,6 +1,6 @@
 licenses(["notice"])  # Apache 2.0
 
-package(default_visibility = ["//:internal_users"])
+package(default_visibility = ["//visibility:public"])
 
 cc_library(
     name = "component",

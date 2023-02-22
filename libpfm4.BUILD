@@ -176,7 +176,7 @@ cc_library(
         "-Wno-implicit-function-declaration",
         "-DCONFIG_PFMLIB_ARCH_X86",
     ],
-    visibility = ["//visibility:private"],
+    visibility = ["//visibility:public"],
     deps = [":perfmon_hdrs"],
 )
 
@@ -209,7 +209,7 @@ cc_library(
         "-Wno-implicit-function-declaration",
         "-DCONFIG_PFMLIB_ARCH_X86",
     ],
-    visibility = ["//visibility:private"],
+    visibility = ["//visibility:public"],
     deps = [":perfmon_hdrs"],
 )
 
@@ -234,7 +234,7 @@ cc_library(
         "-Wno-implicit-function-declaration",
         "-DCONFIG_PFMLIB_ARCH_X86",
     ],
-    visibility = ["//visibility:private"],
+    visibility = ["//visibility:public"],
     deps = [":perfmon_hdrs"],
 )
 
@@ -274,7 +274,7 @@ cc_library(
         "-Wno-implicit-function-declaration",
         "-DCONFIG_PFMLIB_ARCH_X86",
     ],
-    visibility = ["//visibility:private"],
+    visibility = ["//visibility:public"],
     deps = [":perfmon_hdrs"],
 )
 

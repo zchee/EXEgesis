@@ -1,7 +1,7 @@
 # Contains functions and data structures that concern specifically the
 # x86 and x86-64 platforms.
 
-package(default_visibility = ["//:internal_users"])
+package(default_visibility = ["//visibility:public"])
 
 licenses(["notice"])  # Apache 2.0
 

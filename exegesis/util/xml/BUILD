@@ -1,6 +1,6 @@
 # Utilities to manipulate XML documents with tinyxml2.
 
-package(default_visibility = ["//:internal_users"])
+package(default_visibility = ["//visibility:public"])
 
 licenses(["notice"])  # Apache 2.0
 

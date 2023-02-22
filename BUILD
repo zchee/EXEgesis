@@ -1,7 +1,7 @@
 # A database of instructions and a parser for the Intel(r) 64 and IA-32
 # Architectures Software Developer's Manual.
 
-package(default_visibility = ["//visibility:private"])
+package(default_visibility = ["//visibility:public"])
 
 licenses(["notice"])
 
@@ -30,4 +30,21 @@ package_group(
         "//exegesis/...",
         "//llvm_sim/...",
     ],
+)
+
+load("@hedron_compile_commands//:refresh_compile_commands.bzl", "refresh_compile_commands")
+refresh_compile_commands(
+    name = "refresh_compile_commands",
+    targets = {
+      # "//exegesis/...": "--copt='-DNO_THREADS'",
+      # "//exegesis/x86/...": "--copt='-DNO_THREADS'",
+      "//exegesis/base/...": "--copt='-DNO_THREADS'",
+      "//exegesis/tools/...": "--copt='-DNO_THREADS'",
+      "//exegesis/proto/...": "--copt='-DNO_THREADS'",
+      # "//exegesis/tools:parse_intel_sdm": "--copt='-DNO_THREADS' --copt=-I.",
+      # "//exegesis/tools:parse_arm_xml": "--copt='-DNO_THREADS' --copt=-I.",
+      # "//exegesis/tools:pdf2proto": "--copt='-DNO_THREADS' --copt=-I.",
+      # "//exegesis/tools:proto_patch_helper": "--copt='-DNO_THREADS' --copt=-I.",
+      # "//exegesis/tools:proto_patch_migrate": "--copt='-DNO_THREADS' --copt=-I.",
+    },
 )
